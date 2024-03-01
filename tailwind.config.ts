@@ -27,24 +27,24 @@ const config: Config = {
     keyframes: {
       preserve3d: {
         " 0%": {
-          transform: " translate3D(40px , 30px , 0)",
+          transform: " translate3D(30px , 30px , 0)",
         },
         " 50% ": {
           transform: "translate3D(20px , 70px , 0)",
         },
         "100% ": {
-          transform: "translate3D(50px , 70px , 0))"
+          transform: "translate3D(40px , 70px , 0))"
         },
       },
       preserve3d2: {
         " 0%": {
-          transform: " translate3D(-40px , -30px , 0)",
+          transform: " translate3D(40px , -30px , 0)",
         },
         " 50% ": {
-          transform: "translate3D(-20px , -70px , 0)",
+          transform: "translate3D(20px , -70px , 0)",
         },
         "100% ": {
-          transform: "translate3D(-50px , -70px , 0))"
+          transform: "translate3D(50px , -70px , 0))"
         },
       },
     },

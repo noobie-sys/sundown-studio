@@ -5,7 +5,7 @@ const RootLayout = ({children} : {children : React.ReactNode}) => {
   return (
     <div className='h-full bg-cream '>
       <main>
-      <Navbar />
+      
         {children}
       </main>
     </div>

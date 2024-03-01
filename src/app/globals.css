@@ -11,9 +11,15 @@
   font-family: "NeueDisplay_m";
   src: local("NeueDisplay_m") ,url('../fonts/neueDisplay_m.ttf');
 }
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
+  
   font-family: "NeueDisplay";
+  /* overflow: hidden; */
   
 }
 
