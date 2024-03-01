@@ -24,6 +24,7 @@ const config: Config = {
       preserve3d: "preserve3d 26s infinite reverse",
       marquee: "marquee 10s infinite forwards linear ",
       preserve3d2: "preserve3d2 26s infinite reverse",
+      preserve3d3: "preserve3d3 26s infinite reverse linear",
     },
     keyframes: {
       preserve3d: {
@@ -34,7 +35,18 @@ const config: Config = {
           transform: "translate3D(20px , 70px , 0)",
         },
         "100% ": {
-          transform: "translate3D(40px , 70px , 0))"
+          transform: "translate3D(40px , 70px , 0)"
+        },
+      },
+      preserve3d3: {
+        " 0%": {
+          transform: " translate3D(40px , 100px , 0) ",
+        },
+        " 50% ": {
+          transform: "translate3D(20px , 80px , 0)",
+        },
+        "100% ": {
+          transform: "translate3D(50px , 30px , 0)"
         },
       },
       preserve3d2: {
