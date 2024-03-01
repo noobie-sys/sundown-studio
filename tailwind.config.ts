@@ -22,6 +22,7 @@ const config: Config = {
     },
     animation: {
       preserve3d: "preserve3d 26s infinite reverse",
+      marquee: "marquee 10s infinite forwards linear ",
       preserve3d2: "preserve3d2 26s infinite reverse",
     },
     keyframes: {
@@ -47,6 +48,14 @@ const config: Config = {
           transform: "translate3D(50px , -70px , 0))"
         },
       },
+      marquee : {
+        from : {
+          transform : "translateX(0%)"
+        },
+        to : {
+          transform : "translateX(-100%)"
+        },
+      }
     },
   },
   plugins: []
