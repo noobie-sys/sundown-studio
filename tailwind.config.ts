@@ -13,8 +13,42 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      backgroundColor: {
+        cream: "#EFEAE3",
+      },
+      colors: {
+        blackish: "#0B0600",
+      },
+    },
+    animation: {
+      preserve3d: "preserve3d 26s infinite reverse",
+      preserve3d2: "preserve3d2 26s infinite reverse",
+    },
+    keyframes: {
+      preserve3d: {
+        " 0%": {
+          transform: " translate3D(40px , 30px , 0)",
+        },
+        " 50% ": {
+          transform: "translate3D(20px , 70px , 0)",
+        },
+        "100% ": {
+          transform: "translate3D(50px , 70px , 0))"
+        },
+      },
+      preserve3d2: {
+        " 0%": {
+          transform: " translate3D(-40px , -30px , 0)",
+        },
+        " 50% ": {
+          transform: "translate3D(-20px , -70px , 0)",
+        },
+        "100% ": {
+          transform: "translate3D(-50px , -70px , 0))"
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: []
 };
 export default config;
